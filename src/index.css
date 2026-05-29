@@ -54,8 +54,14 @@ body {
 
   /* Ensure no fixed elements block scrolling */
   .container-main {
-    position: static !important;
+    position: relative !important;
     height: auto !important;
+    overflow-x: hidden !important;
+  }
+
+  .container-content {
+    position: relative !important;
+    z-index: 12 !important;
   }
 }
 

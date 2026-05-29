@@ -323,6 +323,11 @@
     gap: 0;
   }
 
+  .work-flex::before,
+  .work-flex::after {
+    display: none !important;
+  }
+
   .work-box {
     width: 100%;
     max-width: 100%;
