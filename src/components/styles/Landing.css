@@ -112,9 +112,7 @@
 
   /* Force static positioning and centering to prevent overlaps */
   .landing-info h2,
-  h2.landing-info-h2,
-  .landing-h2-1,
-  .landing-h2-info {
+  h2.landing-info-h2 {
     position: static !important;
     display: flex !important;
     align-items: center !important;
@@ -126,6 +124,18 @@
     height: auto !important;
     transform: none !important;
     /* Remove any transforms */
+  }
+
+  .landing-h2-1,
+  .landing-h2-info {
+    position: static !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    white-space: normal;
+    text-align: center !important;
+    height: auto !important;
+    transform: none !important;
   }
 
   /* Specific styling for the distinct parts */
