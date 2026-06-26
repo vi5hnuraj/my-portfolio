@@ -173,3 +173,19 @@
 @media only screen and (min-width: 1300px) {
   /* Grid removed in favor of flexbox */
 }
+
+@media only screen and (max-width: 768px) {
+  .contact-section {
+    padding: 60px 0 80px 0;
+  }
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .contact-grid {
+    gap: 16px;
+  }
+  .contact-card {
+    flex: 1 1 100%;
+    padding: 20px 15px;
+  }
+}
