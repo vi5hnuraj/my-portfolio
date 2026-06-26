@@ -503,7 +503,7 @@ h2.landing-info-h2 {
   .landing-intro {
     top: 40%;
     left: auto;
-    right: 55%;
+    right: 64%;
     transform: translate(0%, -50%);
   }
 
@@ -514,7 +514,15 @@ h2.landing-info-h2 {
     text-align: left;
     transform: translate(0%, -50%);
     right: auto;
-    left: 50%;
+    left: 64%;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 2.8vw;
+  }
+
+  .landing-info h3 {
+    font-size: 1.6vw;
   }
 }
 
@@ -522,7 +530,7 @@ h2.landing-info-h2 {
   .landing-intro {
     top: 40%;
     left: auto;
-    right: 60%;
+    right: 66%;
     transform: translate(0%, -50%);
   }
 
@@ -533,7 +541,15 @@ h2.landing-info-h2 {
     text-align: left;
     transform: translate(0%, -50%);
     right: auto;
-    left: 55%;
+    left: 66%;
+  }
+
+  h2.landing-info-h2 {
+    font-size: 3vw;
+  }
+
+  .landing-info h3 {
+    font-size: 1.7vw;
   }
 }
 
