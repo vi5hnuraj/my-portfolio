@@ -564,7 +564,7 @@ h2.landing-info-h2 {
   }
 
   .landing-info h3 {
-    font-size: 35px;
+    font-size: 2vw;
   }
 
   .landing-info h2 {
@@ -573,6 +573,6 @@ h2.landing-info-h2 {
   }
 
   h2.landing-info-h2 {
-    font-size: 75px;
+    font-size: 3.5vw;
   }
 }
