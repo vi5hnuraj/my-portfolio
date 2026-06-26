@@ -503,33 +503,6 @@ h2.landing-info-h2 {
   .landing-intro {
     top: 40%;
     left: auto;
-    right: 64%;
-    transform: translate(0%, -50%);
-  }
-
-  .landing-info {
-    bottom: auto;
-    top: 51%;
-    z-index: inherit;
-    text-align: left;
-    transform: translate(0%, -50%);
-    right: auto;
-    left: 64%;
-  }
-
-  h2.landing-info-h2 {
-    font-size: 2.8vw;
-  }
-
-  .landing-info h3 {
-    font-size: 1.6vw;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .landing-intro {
-    top: 40%;
-    left: auto;
     right: 66%;
     transform: translate(0%, -50%);
   }
@@ -543,13 +516,24 @@ h2.landing-info-h2 {
     right: auto;
     left: 66%;
   }
+}
 
-  h2.landing-info-h2 {
-    font-size: 3vw;
+@media screen and (min-width: 1200px) {
+  .landing-intro {
+    top: 40%;
+    left: auto;
+    right: 70%;
+    transform: translate(0%, -50%);
   }
 
-  .landing-info h3 {
-    font-size: 1.7vw;
+  .landing-info {
+    bottom: auto;
+    top: 51%;
+    z-index: inherit;
+    text-align: left;
+    transform: translate(0%, -50%);
+    right: auto;
+    left: 70%;
   }
 }
 
@@ -564,7 +548,7 @@ h2.landing-info-h2 {
   }
 
   .landing-info h3 {
-    font-size: 2vw;
+    font-size: 35px;
   }
 
   .landing-info h2 {
@@ -573,6 +557,6 @@ h2.landing-info-h2 {
   }
 
   h2.landing-info-h2 {
-    font-size: 3.5vw;
+    font-size: 75px;
   }
 }
