@@ -1,5 +1,5 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./styles/Contact.css";
 import { config } from "../config";
 import gsap from "gsap";
